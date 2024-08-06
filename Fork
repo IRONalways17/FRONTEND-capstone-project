@@ -1,0 +1,16 @@
+git clone https://github.com/your-username/repository-name.git
+cd FRONTEND-capstone-project
+# Clone your forked repository
+git clone https://github.com/your-username/repository-name.git
+
+# Navigate to the repository directory
+cd repository-name
+
+# Add the original repository as a remote
+git remote add upstream https://github.com/original-username/repository-name.git
+
+# Fetch the latest changes from the original repository
+git fetch upstream
+
+# Merge changes from the original repository
+git merge upstream/main
